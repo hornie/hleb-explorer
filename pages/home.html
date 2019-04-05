@@ -188,7 +188,7 @@
                         updateText('emissionPercent', (block.alreadyGeneratedCoins / totalSupply * 100).toFixed(4));
                         updateText('currentReward', getReadableCoins(block.baseReward,4));
                        // updateText('coinsleft', ((totalSupply - block.alreadyGeneratedCoins) / coinUnits).toFixed(3));
-                        $("#coinsLeftTooltip").attr("data-original-title", symbol + " left to mine: " + ((totalSupply - block.alreadyGeneratedCoins) / coinUnits).toFixed(3))
+                        $("#coinsLeftTooltip").attr("data-original-title", symbolLong + " left to mine: " + ((totalSupply - block.alreadyGeneratedCoins) / coinUnits).toFixed(3))
                     }
                 });
 
